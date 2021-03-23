@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Drawing canvas</title>
+    <link rel="icon" href="../images/tableta.png">
+    <link rel="stylesheet" href="./code/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__title">
+        <img src="../images/tableta.png" alt="This is the logo">
+        <h1 class="header">Drawing Canvas</h1>
+      </div>
+      <div class="header__sentence">
+      <p class="header__sentence--p1">"El arte es la mas<br/> pura expresion del corazón" </p>
+      <p class="header__sentence--p2">Gracias por visitarnos</p>
+      </div>
+    </header>
+    <section class="container">
+      <div class="container__menu">
+        <p>what do you draw?:</p>
+        <input width="200" height="100" type="button" value="line" id="line" class="menu__button--line"/>
+        <input width="200" height="100" type="button" value="star" id="star" class="menu__button--star"/>
+        <input width="200" height="100" type="button" value="square" id="square" class="menu__button--square"/>
+        <input width="200" height="100" type="button" value="circle" id="circle" class="menu__button--circle"/>
+      </div>
+      <section id="menu" class="menu">
+        <div class="menu__paragraph">
+          <p>Select the color:</p> 
+        </div>
+        <div class="menu__button">
+          <input width="100" height="100" type="button" id="red" class="menu__button--red"/>
+          <input width="100" height="100" type="button" id="indianred" class="menu__button--indianred"/>
+          <input width="100" height="100" type="button" id="lightcoral" class="menu__button--lightcoral"/>
+          <input width="100" height="100" type="button" id="salmon" class="menu__button--salmon"/>
+          <input width="100" height="100" type="button" id="darksalmon" class="menu__button--darksalmon"/>
+          <input width="100" height="100" type="button" id="lightsalmon" class="menu__button--lightsalmon"/>
+          <input width="100" height="100" type="button" id="purple" class="menu__button--purple"/>
+          <input width="100" height="100" type="button" id="fuchsia" class="menu__button--fuchsia"/>
+          <input width="100" height="100" type="button" id="navy" class="menu__button--navy"/>
+          <input width="100" height="100" type="button" id="blue" class="menu__button--blue"/>
+          <input width="100" height="100" type="button" id="teal" class="menu__button--teal"/>
+          <input width="100" height="100" type="button" id="aqua" class="menu__button--aqua"/>
+          <input width="200" height="100" type="button" id="green" class="menu__button--green"/>
+        </div>
+      </section>
+      <section id="canvas" class="canvas">
+        <figure class="canvas__figure">
+          <canvas id="cuadro" width="700px" height="300px" class="canvas-c"></canvas>
+          <figcaption>This is the canvas</figcaption>
+        </figure>
+      </section>
+    </section>
+    <footer class="footer">
+      <p class="footer__paragraph--contac">Contactanos: 3136272381</p>
+      <p class="footer__paragraph--correo">Correo: alexanderj.er@gmail.com</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+    <script src="./code/square.js"></script>
+    <script src="./code/Star.js"></script>
+    <script src="./code/Line.js"></script>
+    <script src="./code/index.js"></script>
+  </body>
+</html>

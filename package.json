@@ -1,0 +1,15 @@
+{
+  "name": "raton",
+  "version": "1.0.0",
+  "description": "Proyecto dibujar con el mouse",
+  "main": "index.html",
+  "scripts": {
+    "start": "PORT=8989 live-server"
+  },
+  "keywords": ["raton"],
+  "author": "Alexander <alexanderj.er@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
